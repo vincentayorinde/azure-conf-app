@@ -63,10 +63,10 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure App Service* |  Dv2-Series compute equivalent   |   73.73 USD     |
-| *Azure Postgres Database* |  Basic   |      51.14 USD        |
+| *Azure App Service Plan* |  Free plan   |   0 USD     |
+| *Azure Postgres Database* |  Basic   |      51.14 USD       |
 | *Azure Service Bus*   |     Basic    |       0.05 USD       |
-| ...                   |         |              |
+| *The Azure Function*  |  Dv2-Series compute equivalent      |  73.73 USD       
 
 ## Architecture Explanation
 This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
