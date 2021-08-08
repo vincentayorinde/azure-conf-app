@@ -32,7 +32,7 @@
     ],
     "appService.defaultWebAppToDeploy": "/subscriptions/44eebaf4-cb8b-42b1-8b03-88101f2ef755/resourceGroups/project3-rg/providers/Microsoft.Web/sites/project3-app",
     "appService.deploySubpath": ".",
-    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.deploySubpath": "function",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",

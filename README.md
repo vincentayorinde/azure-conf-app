@@ -63,9 +63,15 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |     |              |
-| *Azure Service Bus*   |         |              |
+| *Azure App Service* |  Dv2-Series compute equivalent   |   73.73 USD     |
+| *Azure Postgres Database* |  Basic   |      51.14 USD        |
+| *Azure Service Bus*   |     Basic    |       0.05 USD       |
 | ...                   |         |              |
 
 ## Architecture Explanation
 This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
+
+I used Azure web app because the TechConf website need to scale and will not have to use up to 14GB of RAM and it is quick/easy to setup, also the 
+infrastructure is managed for us by azure, so we can focus on business logic
+
+I used Azure Function to trigger the notifications to users via their email, whenever an admin creates a notification
